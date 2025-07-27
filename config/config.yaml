@@ -1,0 +1,33 @@
+# Certificate Generator Configuration
+certificate:
+  template_path: "./CERTIFICATE GENERATOR/templates/template.png"
+  output_path: "./CERTIFICATE GENERATOR/output/certificates/"
+  width: 2000
+  height: 1414
+  background_color: "#FFFFFF"
+
+fonts:
+  default_font: "./CERTIFICATE GENERATOR/fonts/GreatVibes-Regular.ttf"
+  title_font_size: 80
+  name_font_size: 120
+  details_font_size: 40
+  font_color: "#1A1A1A"
+
+data:
+  csv_path: "./CERTIFICATE GENERATOR/data/participants.csv"
+  required_columns: ["name", "course", "completion_date"]
+
+positioning:
+  title_x: 1000
+  title_y: 303
+  name_x: 1000
+  name_y: 620
+  course_x: 1000
+  course_y: 780
+  date_x: 1000
+  date_y: 940
+
+output:
+  format: "both"  # Options: "pdf", "png", "both"
+  quality: 95
+  dpi: 300

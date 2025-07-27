@@ -1,0 +1,6 @@
+# Certificate Generator Requirements
+Pillow==10.0.0
+reportlab==4.0.4
+pandas==2.1.0
+pyyaml==6.0.1
+opencv-python==4.8.0.76

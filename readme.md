@@ -57,34 +57,40 @@ certificate_generator/ \
 All settings are in `config/config.yaml`. Example settings for your high-res template:
 
 ```bash
+# Certificate Generator Configuration
 certificate:
-template_path: "./templates/template.png"
-output_path: "./output/certificates/"
-width: 2000
-height: 1414
-background_color: "#FFFFFF"
+  template_path: "./CERTIFICATE GENERATOR/templates/template.png"
+  output_path: "./CERTIFICATE GENERATOR/output/certificates/"
+  width: 2000
+  height: 1414
+  background_color: "#FFFFFF"
 
 fonts:
-default_font: "./fonts/GreatVibes-Regular.ttf"
-title_font_size: 130
-name_font_size: 180
-details_font_size: 60
-font_color: "#1A1A1A"
+  default_font: "./CERTIFICATE GENERATOR/fonts/GreatVibes-Regular.ttf"
+  title_font_size: 80
+  name_font_size: 120
+  details_font_size: 40
+  font_color: "#1A1A1A"
 
 data:
-csv_path: "./data/participants.csv"
-required_columns: ["name", "course", "completion_date"]
+  csv_path: "./CERTIFICATE GENERATOR/data/participants.csv"
+  required_columns: ["name", "course", "completion_date"]
 
 positioning:
-title_y: 350
-name_y: 600
-course_y: 900
-date_y: 1150
+  title_x: 1000
+  title_y: 303
+  name_x: 1000
+  name_y: 620
+  course_x: 1000
+  course_y: 780
+  date_x: 1000
+  date_y: 940
 
 output:
-format: "both" # "pdf", "png", or "both"
-quality: 95
-dpi: 300
+  format: "both"  # Options: "pdf", "png", "both"
+  quality: 95
+  dpi: 300
+
 ```
 
 

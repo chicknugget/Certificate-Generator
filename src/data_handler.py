@@ -47,16 +47,16 @@ class DataHandler:
         """Create a sample CSV file with participant data"""
         sample_data = {
             'name': [
-                'John Smith',
-                'Emily Johnson', 
-                'Michael Brown',
-                'Sarah Davis',
-                'David Wilson',
-                'Lisa Anderson',
-                'Robert Taylor',
-                'Jennifer Martinez',
-                'William Garcia',
-                'Maria Rodriguez'
+                'Student A',
+                'Student B', 
+                'Student C',
+                'Student D',
+                'Student E',
+                'Student F',
+                'Student G',
+                'Student H',
+                'Student I',
+                'Student J'
             ],
             'course': [
                 'Python Programming Fundamentals',
